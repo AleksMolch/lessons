@@ -111,7 +111,7 @@ console.log(" Высокий уровень достатка");
 
 function checkSavings() {
     if (appData.savings == true) {
-        let save = +prompt("Какова сумма накоплений?"),
+         let save = +prompt("Какова сумма накоплений?"),
             persent = +prompt("Под какой процент?");
 
             appData.monthIncome = save/100/12*persent;
