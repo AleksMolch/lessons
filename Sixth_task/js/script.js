@@ -1,4 +1,5 @@
 let liButton = document.querySelectorAll(".menu-item");
+console.log(liButton);
 let ulButton = document.querySelector('.menu');
 let body = document.querySelector('body');
 
@@ -13,7 +14,6 @@ ulButton.appendChild(newLi);
 document.body.style.background =  "url('img/apple_true.jpg') no-repeat";
 
 let title = document.getElementById("title");
-console.log(title);
 title.textContent = "Мы продаем только подлинную технику Apple";
 
 let adv = document.querySelector('.adv');
