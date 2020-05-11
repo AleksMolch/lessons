@@ -4,6 +4,12 @@ let body = document.querySelector('body');
 
 ulButton.insertBefore(liButton[2], liButton[1]);
 
+newLi = document.createElement("li");
+newLi.classList.add("menu-item");
+newLi.textContent = 'Пятый пункт';
+ulButton.appendChild(newLi);  
+
+
 document.body.style.background =  "url('img/apple_true.jpg') no-repeat";
 
 let title = document.getElementById("title");
